@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Let's do it!!</h1>
+    <p id="description">Thank you for your precious time to fill this form</p>
+    <form id="survey-form">
+      <div class="input-element">
+        <label id="name-label">
+          Name
+          </label>
+      <input required placeholder="name" id="name" type="text" </input>
+      </div>
+       <div class="input-element">
+        <label id="email-label">
+          Email
+          </label>
+      <input  required placeholder="email" id="email" type="email"</input>
+      </div>
+       <div class="input-element">
+        <label id="number-label">
+          Age
+          </label>
+      <input required placeholder="age" id="number" type="number" min="15" max="100"></input>
+      </div>
+      <div class="input-element"
+      <label id ="select-label">
+        Which option best describe your current role?
+        </label>
+        <select id="dropdown">
+        <option>select</option>
+        <option>School Student</option>
+        <option>College Student</option>
+        <option>Other</option>
+      </select>
+        </div>
+        <div class="input-element">
+        <label> Would you recommend this to a friend?</label>
+<div>
+  <label><input value="test1"type="radio" name="game"/>Yes</label>
+      </div>
+      <div>
+  <label><input value="test1"type="radio" name="game"/>No</label>
+  </div>
+  </div>
+        <div class="input-element">
+        <label> What would you like to see improved?</label>
+<div>
+  <label><input type="checkbox" name="ideas" value="playin"/>Front-end developer</label>
+      </div>
+<div>
+  <label><input type="checkbox" name="tickets" value="timein"/>Back-end developer</label>
+      </div>
+      <div>
+  <label><input type="checkbox" name="foods" value="foods"/>Android developer</label>
+      </div>
+      <div>
+  <label><input type="checkbox" name="ideas" value="calls"/>ui/ux designer</label>
+      </div>
+      <div>
+          <label><input type="checkbox" name="ideas" value="Superteam"/>Game Developer</label>
+          </div>
+          
+     <div class="input-element">
+       <label>Additional comments</label>
+       
+       <textarea type="text"<input  required placeholder="Enter your comment here..." id="email" type="email"</input></textarea>
+       </div>
+      
+       <button type="submit" id= "submit" style="width: 25%;">
+         Submit
+         </button></div>
+  </form>
+  </body>
